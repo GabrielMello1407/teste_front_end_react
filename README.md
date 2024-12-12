@@ -26,8 +26,8 @@ A aplicação foi construída utilizando ReactJS, Prisma e Supabase, com uma int
 #### Integração com a API: A aplicação faz uso da API externa para as operações de CRUD.
 ## Validações dos Campos
 #### model: Nome do modelo do celular.
-Tipo: Texto
-Restrições: Alfanumérico, mínimo de 2 e máximo de 255 caracteres.
+##### Tipo: Texto
+##### Restrições: Alfanumérico, mínimo de 2 e máximo de 255 caracteres.
 
 #### price: Preço do celular.
 ##### Tipo: Número Real
