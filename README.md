@@ -1,4 +1,5 @@
 # Cadastro de Celulares - Gerenciamento de Celulares
+### OBS Dentro desse projeto, existem dois projeto o phone-menager que é o projeto do desafio que eu quis fazer com alguns estilos diferenciados para descontrair e o phone-menager-prototype que é o projeto real do desafio, os dois estão ai disponíveis para avaliação!
 ## Descrição
 Este repositório contém a solução para um aplicativo de gerenciamento de cadastro de celulares. O sistema permite cadastrar, editar, excluir e listar celulares de uma empresa que está lançando um novo app de vendas.
 
