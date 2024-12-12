@@ -63,24 +63,22 @@ Header: A cada requisição, o CPF do usuário deve ser enviado no cabeçalho ({
 ## Endpoints da API
 A API utilizada para comunicação é:
 
-GET /api/phone - Lista todos os celulares.
-GET /api/phone/:id - Exibe os detalhes de um celular específico.
-DELETE /api/phone/:id - Exclui um celular pelo ID.
-POST /api/phone - Cria um novo celular.
-PATCH /api/phone/:id - Atualiza as informações de um celular.
+#### GET /api/phone - Lista todos os celulares.
+#### GET /api/phone/:id - Exibe os detalhes de um celular específico.
+#### DELETE /api/phone/:id - Exclui um celular pelo ID.
+#### POST /api/phone - Cria um novo celular.
+#### PATCH /api/phone/:id - Atualiza as informações de um celular.
 Exemplo de Requisição (Criar ou Editar Celular)
 Body da Requisição:
-json
-Copiar código
-{
-  "model": "Galaxy 5",
-  "brand": "Samsung",
-  "price": "900",
-  "startDate": "26/04/2019",
-  "endDate": "12/12/2022",
-  "color": "BLACK",
-  "code": "#12212"
-}
+#### {
+####   "model": "Galaxy 5",
+####   "brand": "Samsung",
+####   "price": "900",
+####   "startDate": "26/04/2019",
+####   "endDate": "12/12/2022",
+####   "color": "BLACK",
+####   "code": "#12212"
+#### }
 Os endpoints da API podem ser acessados em localhost/api/phone (em ambiente local) ou na URL fornecida.
 
 ## Configuração e Setup
