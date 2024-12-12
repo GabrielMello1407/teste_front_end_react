@@ -30,8 +30,8 @@ Tipo: Texto
 Restrições: Alfanumérico, mínimo de 2 e máximo de 255 caracteres.
 
 #### price: Preço do celular.
-Tipo: Número Real
-Restrições: Número positivo.
+##### Tipo: Número Real
+##### Restrições: Número positivo.
 
 #### brand: Nome da marca do celular.
 ##### Tipo: Texto
